@@ -1,11 +1,12 @@
-import logo from "./logo.svg";
-import "./App.css";
+import React from "react";
+import Header from "./Header";
+import Inputs from "./Inputs";
 
 function App() {
   return (
     <>
-      <h1>hello suraj</h1>
-      <h2>hello git </h2>
+      <Header />
+      <Inputs />
     </>
   );
 }

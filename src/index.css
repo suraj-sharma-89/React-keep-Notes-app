@@ -1,13 +1,112 @@
-body {
+/* Reset CSS */
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Main styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.logo {
+  width: 40px;
+}
+
+.header-h1 {
+  flex: 1;
+  color: lightslategray;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.search-bar {
+  font-weight: 300;
+
+  outline: none;
+  margin: 0 20px;
+  border: none;
+  padding: 8px 10px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.container-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 40px;
+}
+
+.input-div {
+  width: 60%; /* Adjusted to be 40% of the page */
+  margin: 0 auto; /* Centered horizontally */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px;
+
+  position: relative;
+}
+
+.fa-plus {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 5px;
+  cursor: pointer;
+}
+
+.input-div input {
+  outline: none;
+  font-size: 16px;
+  width: 100%;
+  padding: 12px 10px;
+  border: 1px solid;
+  border-color: #d3d3d3;
+  border-radius: 10px;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.box {
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: relative;
+  overflow-wrap: break-word;
+}
+
+.box h1 {
+  margin-bottom: 10px;
+  font-size: 23px;
+  color: lightslategray;
+}
+
+.box p {
+  font-size: 15px;
+}
+
+.delete-icon {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  cursor: pointer;
 }
