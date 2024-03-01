@@ -5,13 +5,14 @@
   margin: 0;
   padding: 0;
   font-family: "Ubuntu", Georgia;
+}
+body {
   background-color: #a2d5ab;
 }
 
 /* Main styles */
 
 header {
-  color: #fff;
   padding: 10px 20px;
   display: flex;
   justify-content: space-between;
