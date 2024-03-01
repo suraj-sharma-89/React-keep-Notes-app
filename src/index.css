@@ -122,10 +122,12 @@ header {
   header {
     flex-direction: column;
     text-align: center;
+    background-color: #fff;
   }
 
   .search-bar {
     margin: 20px auto;
+    background-color: #fff;
   }
 
   .container-input {
@@ -136,8 +138,13 @@ header {
     width: 80%;
   }
 
+  .input-div input {
+    background-color: #fff;
+  }
+
   .box {
     width: calc(100% - 20px);
     margin: 10px 0;
+    background-color: #e5efc1;
   }
 }
