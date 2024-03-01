@@ -7,9 +7,14 @@
   font-family: "Ubuntu", Georgia;
 }
 
+body {
+  background-color: #a2d5ad;
+}
+
 /* Main styles */
 
 header {
+  background-color: #e5efc1;
   padding: 10px 20px;
   display: flex;
   justify-content: space-between;
@@ -30,10 +35,12 @@ header {
 
 .search-bar {
   font-weight: 300;
-
+  background-color: #e5efc1;
   outline: none;
   margin: 0 20px;
-  border: none;
+  border: 0.5px solid;
+  border-radius: 3px;
+  border-color: #557b83;
   padding: 8px 10px;
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
@@ -64,6 +71,7 @@ header {
 }
 
 .input-div input {
+  background-color: #e5efc1;
   outline: none;
   font-size: 16px;
   width: 100%;
@@ -82,6 +90,7 @@ header {
 }
 
 .box {
+  background-color: #e5efc1;
   width: calc(33.33% - 20px);
   margin: 10px;
   padding: 30px;
@@ -95,7 +104,7 @@ header {
 .box h1 {
   margin-bottom: 10px;
   font-size: 23px;
-  color: lightslategray;
+  color: #557b83;
 }
 
 .box p {
