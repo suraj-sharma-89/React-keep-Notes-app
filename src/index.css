@@ -145,6 +145,6 @@ header {
   .box {
     width: calc(100% - 20px);
     margin: 10px 0;
-    background-color: #e5efc1;
+    background-color: white;
   }
 }
