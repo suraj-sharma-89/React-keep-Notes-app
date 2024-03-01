@@ -109,3 +109,27 @@ header {
   right: 5px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .search-bar {
+    margin: 20px auto;
+  }
+
+  .container-input {
+    margin: 20px;
+  }
+
+  .input-div {
+    width: 80%;
+  }
+
+  .box {
+    width: calc(100% - 20px);
+    margin: 10px 0;
+  }
+}
