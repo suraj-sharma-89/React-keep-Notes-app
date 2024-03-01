@@ -119,6 +119,9 @@ header {
 }
 
 @media screen and (max-width: 768px) {
+  body {
+    background-color: #9cb898;
+  }
   header {
     flex-direction: column;
     text-align: center;
